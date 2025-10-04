@@ -1,0 +1,21 @@
+name: Waka Readme
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 每天北京时间 0 点运行 (对应 UTC 16:00)
+    - cron: "0 16 * * *"
+
+jobs:
+  update-readme:
+    name: WakaReadme DevMetrics
+    runs-on: ubuntu-latest
+    steps:
+      - name: Show current time
+        run: |
+          echo "Current UTC time: $(date -u)"
+          echo "Current Beijing time: $(TZ=Asia/Shanghai date)"
+      
+      - uses: athul/waka-readme@master
+        with:
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
