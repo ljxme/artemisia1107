@@ -1,25 +1,23 @@
-## Hi there 👋
+# 👋 Hi, I'm Artemisia  
 
-<!--
-**artemisia1107/artemisia1107** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+欢迎来到我的 GitHub Profile 个人主页🎉  
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 📈 我的 GitHub 活跃度
 
-### 📊 最近一周的编码统计
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=artemisia1107&layout=compact&theme=radical)
+
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=artemisia1107&show_icons=true&theme=radical)
+
+---
+
+### 📊 最近一周的编码统计  
+
 <!--START_SECTION:waka-->
 <!--END_SECTION:waka-->
 
-### 📈 我的 GitHub 活跃度
-<!--START_SECTION:github-stats-->
-<!--END_SECTION:github-stats-->
+⏰ 数据由 [WakaTime](https://wakatime.com/) 提供，自动更新于 GitHub Actions
+
+---
 
