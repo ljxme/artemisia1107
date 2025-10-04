@@ -10,12 +10,19 @@ jobs:
   update-readme:
     name: WakaReadme DevMetrics
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - name: Show current time
         run: |
           echo "Current UTC time: $(date -u)"
           echo "Current Beijing time: $(TZ=Asia/Shanghai date)"
       
-      - uses: athul/waka-readme@master
+      - name: Update WakaTime stats
+        uses: athul/waka-readme@master
+        continue-on-error: true   # 容错，避免 WakaTime API 挂掉时整个失败
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          SHOW_TITLE: true        # 显示标题 📊 Weekly development breakdown
+          SHOW_TIME: true         # 显示耗时 (小时/分钟)
+          SHOW_TOTAL: true        # 显示总时长
+          LANG_COUNT: 10          # 显示前 10 种语言
