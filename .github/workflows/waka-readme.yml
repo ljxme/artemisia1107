@@ -2,6 +2,11 @@ name: Waka Readme
 
 on:
   workflow_dispatch:
+    inputs:
+      force:
+        description: "是否强制更新 WakaTime 数据"
+        required: false
+        default: "false"
   schedule:
     # 每天北京时间 0 点运行 (对应 UTC 16:00)
     - cron: "0 16 * * *"
@@ -16,8 +21,10 @@ jobs:
         run: |
           echo "Current UTC time: $(date -u)"
           echo "Current Beijing time: $(TZ=Asia/Shanghai date)"
+          echo "Manual force update: ${{ github.event.inputs.force }}"
       
       - name: Update WakaTime stats
+        if: ${{ github.event_name == 'schedule' || github.event.inputs.force == 'true' }}
         uses: athul/waka-readme@master
         continue-on-error: true   # 容错，避免 WakaTime API 挂掉时整个失败
         with:
