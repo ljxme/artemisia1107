@@ -15,5 +15,11 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
+### 📊 最近一周的编码统计
 <!--START_SECTION:waka-->
 <!--END_SECTION:waka-->
+
+### 📈 我的 GitHub 活跃度
+<!--START_SECTION:github-stats-->
+<!--END_SECTION:github-stats-->
+
