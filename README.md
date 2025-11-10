@@ -18,20 +18,20 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 01 November 2025 - To: 08 November 2025
+From: 02 November 2025 - To: 09 November 2025
 
-Total Time: 34 hrs 29 mins
+Total Time: 29 hrs 33 mins
 
-Astro        12 hrs 37 mins  █████████░░░░░░░░░░░░░░░░   36.55 %
-TypeScript   7 hrs 11 mins   █████▒░░░░░░░░░░░░░░░░░░░   20.83 %
-MDX          4 hrs 22 mins   ███▒░░░░░░░░░░░░░░░░░░░░░   12.68 %
-JavaScript   3 hrs 23 mins   ██▒░░░░░░░░░░░░░░░░░░░░░░   09.84 %
-CSS          3 hrs 18 mins   ██▒░░░░░░░░░░░░░░░░░░░░░░   09.58 %
-JSON         1 hr 13 mins    █░░░░░░░░░░░░░░░░░░░░░░░░   03.55 %
-YAML         1 hr 6 mins     ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.20 %
-HTML         41 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.00 %
-Markdown     15 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.76 %
-TSConfig     13 mins         ░░░░░░░░░░░░░░░░░░░░░░░░░   00.63 %
+Astro        9 hrs 17 mins   ████████░░░░░░░░░░░░░░░░░   31.41 %
+TypeScript   6 hrs 41 mins   █████▓░░░░░░░░░░░░░░░░░░░   22.64 %
+MDX          4 hrs 22 mins   ███▓░░░░░░░░░░░░░░░░░░░░░   14.80 %
+CSS          3 hrs 2 mins    ██▓░░░░░░░░░░░░░░░░░░░░░░   10.31 %
+JavaScript   2 hrs 49 mins   ██▒░░░░░░░░░░░░░░░░░░░░░░   09.58 %
+JSON         1 hr 13 mins    █░░░░░░░░░░░░░░░░░░░░░░░░   04.14 %
+YAML         1 hr 6 mins     █░░░░░░░░░░░░░░░░░░░░░░░░   03.73 %
+HTML         23 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.34 %
+Markdown     15 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.89 %
+TSConfig     13 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.74 %
 ```
 
 <!--END_SECTION:waka-->
