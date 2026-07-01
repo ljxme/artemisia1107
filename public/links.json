@@ -103,6 +103,16 @@
             "hash": "1233738427a4ea35",
             "path": "/avatars/1233738427a4ea35.webp"
           }
+        },
+        {
+          "name": "谨言慎行",
+          "intro": "分享技术、新知、生活中的琐碎日常",
+          "link": "https://careful.fyi/",
+          "avatar": "https://assets.careful.fyi/images/favicon.ico",
+          "avatar_cache": {
+            "hash": "db6867ffce43f0cc",
+            "path": "/avatars/db6867ffce43f0cc.ico"
+          }
         }
       ]
     },
